@@ -8,7 +8,9 @@ function Card() {
   const card = data.find((dat) => dat.id === parseInt(cardId, 10));
   return (
     <div>
-      <h2>{card.date}</h2>
+      <div className="header">
+        <h2>{card.date}</h2>
+      </div>
       <ul>
         {card.CHINA || card['C N'] ? (
           <li>

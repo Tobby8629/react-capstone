@@ -12,7 +12,12 @@ function Home() {
   };
 
   return (
-    <div className="home">
+
+    <>
+    <div className="header">
+      <h2>Global Apple Revenue</h2>
+    </div>
+     <div className="home">
       <div className="form">
         <input type="text" placeholder="filter by year" onChange={searchfilter} />
       </div>
@@ -28,7 +33,9 @@ function Home() {
           </div>
         </div>
       ))}
-    </div>
+    </div>   
+    </>
+    
   );
 }
 

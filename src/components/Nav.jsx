@@ -18,7 +18,6 @@ function Nav() {
           <i className="fa-solid fa-gear" />
         </div>
       </nav>
-      <div className="header" />
     </>
 
   );
