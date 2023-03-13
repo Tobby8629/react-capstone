@@ -1,16 +1,30 @@
-import React from 'react';
-import { useSelector } from 'react-redux';
-
+import React, { useState } from 'react';
+import {  useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 function Home() {
+  const [date, setdate] = useState("");
   const data = useSelector((state)=> state.Data.info)
-  console.log(data)
+
+  const searchfilter = (e) => {
+    const value = e.target.value;
+    setdate(value)
+  }
+  
+
+
   return (
     <div className="home">
-      {data.map((data)=>(
+    <div className="form">
+        <input type="text" placeholder='filter by year' onChange={searchfilter} />
+    </div>
+      {data.filter(info => info.date.includes(date)).map((data)=>(
         <div className='each' key={data.id}>
           <h3>{data.date}</h3>
-          <p>Total revenue globally: {data.total}</p>
+          <div className="detail">
+            <p>Total revenue globally: {data.total}</p>
+            <Link to ={`card/${data.id}`}> details </Link>
+          </div>
         </div>
       ))}
     </div>
