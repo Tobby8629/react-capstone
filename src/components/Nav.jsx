@@ -6,7 +6,10 @@ function Nav() {
     <>
       <nav>
         <div className="back">
-          <Link to="/"><i className="fa-solid fa-chevron-left" /> </Link> 
+          <Link to="/">
+            <i className="fa-solid fa-chevron-left" />
+            {' '}
+          </Link>
           <h4>2022</h4>
         </div>
         <h2>Whatever</h2>
