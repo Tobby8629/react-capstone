@@ -23,14 +23,15 @@ function Home() {
       <div className="home">
         {data.filter((info) => info.date.includes(date)).map((data) => (
           <div className="each" key={data.id}>
-            <Link to={`card/${data.id}`}>
+            <div className="detail">
               <h3>{data.date}</h3>
-              <div className="detail">
-                <p>
-                  <span className="total">Total revenue: </span>
-                  {data.total}
-                </p>
-              </div>
+              <p>
+                <span className="total">Total revenue: </span>
+                {data.total}
+              </p>
+            </div>
+            <Link to={`card/${data.id}`}>
+              <i className="fa-solid fa-arrow-right" />
             </Link>
           </div>
         ))}
