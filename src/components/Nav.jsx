@@ -12,13 +12,12 @@ function Nav() {
           </Link>
           <h4>2022</h4>
         </div>
-        <h2>Whatever</h2>
+        <h2>revenues</h2>
         <div className="icons">
           <i className="fa-solid fa-microphone" />
           <i className="fa-solid fa-gear" />
         </div>
       </nav>
-      <div className="header" />
     </>
 
   );

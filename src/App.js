@@ -11,7 +11,7 @@ function App() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchData());
-  }, []);
+  }, [dispatch]);
   return (
     <div className="App">
       <Nav />
