@@ -34,7 +34,7 @@
 
 # 📖 REACT METRICWEBAPP  <a name="about-project"></a>
 
-**REACT METRICWEBAPP** is a webApp that contains Apple product annual revenue, displaying them in segment of year, and into a smaller segment of each country revenue.
+**REACT METRICWEBAPP** is a webApp that contains Apple product annual revenue, displaying them in segment of year, and into a smaller segment of each country revenue. Here is a [link](https://www.loom.com/share/16a20c8d07414289a6e4e871de6f7242) to a video about the project.
 
 ## 🛠 Built With <a name="built-with"></a>
 - REACT
