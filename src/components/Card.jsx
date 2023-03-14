@@ -8,7 +8,7 @@ function Card() {
   const card = data.find((dat) => dat.id === parseInt(cardId, 10));
   return (
     <div>
-      <div className="header">
+      <div className="header Hcard">
         <h2>{card.date}</h2>
       </div>
       <ul>

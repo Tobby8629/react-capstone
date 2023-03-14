@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
 export const fetchData = createAsyncThunk('data/fetchData', async () => {
-  const res = await fetch('https://financialmodelingprep.com/api/v4/revenue-geographic-segmentation?symbol=AAPL&structure=flat&apikey=e355577032dc5411a7692d2cf377a9bd');
+  const res = await fetch('https://financialmodelingprep.com/api/v4/revenue-geographic-segmentation?symbol=AAPL&structure=flat&apikey=8d3800774059e15047f19f8bca3efada');
   const data = res.json();
   return data;
 });

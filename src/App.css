@@ -8,7 +8,6 @@
 }
 
 body {
-  padding: 1rem;
   background-color: rgb(243, 59, 89);
 }
 
@@ -16,7 +15,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: rgb(222, 219, 219);
+  color: rgba(251, 246, 246, 0.906);
+  padding: 1rem;
 }
 
 .back {
@@ -24,8 +24,13 @@ nav {
   align-items: center;
 }
 
-.back i {
+nav h2 {
+  font-weight: 200;
+}
+
+.back a i {
   margin-right: 10px;
+  color: rgba(251, 246, 246, 0.906) ;
 }
 
 .icons i {
@@ -35,8 +40,45 @@ nav {
 
 /*** Homepage **/
 
+.header {
+  height: 33vh;
+  background-image: linear-gradient(rgba(90, 6, 20, 0.381), rgba(90, 6, 20, 0.579)), url(./components/Assets/header.jpg);
+   background-position:center;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+   padding: 1rem;
+}
+
+.header h2 {
+  width: 218px;
+  color: rgba(255, 255, 255, 0.818);
+  
+}
+
 .each {
   color: white;
   padding: 10px;
   margin: 5px 0;
+  padding: 1rem;
+}
+
+/*** header input ***/
+.form{
+  margin: 0;
+  padding: 0;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin: 0px;
+  outline: none;
+  border: none;
+}
+
+.Hcard {
+   background-image: linear-gradient(rgba(90, 6, 20, 0.381), rgba(90, 6, 20, 0.579)), url(./components/Assets/header2.jpg);
 }
