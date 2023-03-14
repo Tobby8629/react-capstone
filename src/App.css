@@ -65,8 +65,7 @@ nav h2 {
 
 .each {
   color: white;
-  margin: 5px 0;
-  padding: .5rem;
+  padding: 0.5rem;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -94,7 +93,6 @@ nav h2 {
 .detail {
   display: flex;
   flex-direction: column;
-  
 }
 
 .each:nth-child(even) {
@@ -160,6 +158,8 @@ nav h2 {
 @media (min-width: 768px) {
   .header {
     height: 60vh;
+    background-position: center;
+    background-size: cover;
   }
 
   .header h2 {
@@ -177,16 +177,14 @@ nav h2 {
     grid-auto-rows: 220px;
   }
 
-  .each {
-   
-  }
-
   .detail {
     font-size: 18px;
   }
 
   .detail h3 {
     margin-bottom: 1rem;
+    font-size: 25px;
+    font-weight: 600;
   }
 
   .each a {
@@ -195,7 +193,6 @@ nav h2 {
     width: 35px;
     height: 35px;
     line-height: 35px;
-   
   }
 
   .each:nth-child(4n-1) {
@@ -204,6 +201,15 @@ nav h2 {
 
   .each:nth-child(4n) {
     background-color: transparent;
+  }
+
+  .each p {
+    font-size: 20px;
+  }
+
+  .total {
+    font-size: 22px;
+    font-weight: 500;
   }
 
   /*** cards ****/
