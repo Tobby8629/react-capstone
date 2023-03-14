@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <img src="https://media.giphy.com/media/jIgBiAvcko2N2I2Gjq/giphy-downsized-large.gif" alt="logo" width="800"  height="auto" />
+  <img src="https://media.giphy.com/media/bmQBu3aSF0DxadphkG/giphy.gif" alt="logo" width="500"  height="auto" />
   <br/>
 
   <h3><b>README</b></h3>
@@ -32,10 +32,9 @@
 - [📝 License](#license)
 
 
-# 📖 SPACE_TRAVELLER_HUB  <a name="about-project"></a>
+# 📖 REACT METRICWEBAPP  <a name="about-project"></a>
 
-**SPACE_TRAVELLER_HUB** is a rocket website with features of making reservations, cancel reservation and a profile page that upfates the state of reservation of each rocket.
-
+**REACT METRICWEBAPP** is a webApp that contains Apple product annual revenue, displaying them in segment of year, and into a smaller segment of each country revenue.
 
 ## 🛠 Built With <a name="built-with"></a>
 - REACT
@@ -68,17 +67,16 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **receive data from an API using axios and fetch**
+- **receive data from an API using await fetch**
 - **manage state using redux**
-- **Create a reservation and cancel button.**
-- **create a profile page that get the updated reservation and cancelled reservation.**
-
+- **create a Home page to display the yearly data**
+- **Create a page for each data using useparams.**
 
 
 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](https://space-x-vv8h.onrender.com)
+- [Live Demo Link](https://metric-app-4bso.onrender.com/)
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -146,11 +144,6 @@ Github pages
 
 ##👥 Authors <a name="authors"></a>
 
- 👤**chukwuemeka Kanu**
-
-- GitHub: [@Donmark2k](https://github.com/Mekuseo)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/chukwuemekaKanu/)
-
 👤**Samuel Tobby**
 
 - GitHub: [@Tobby8629](https://github.com/Tobby8629)
@@ -162,7 +155,7 @@ Github pages
 
 
 ## 🔭 Future Features <a name="future-features"></a>
-- I will add time and date for rocket take off
+- I will add data of states revenue in each country
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -179,15 +172,15 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-[Victor Chiemerie](https://github.com/Victor-chiemerie) has been of tremendous help so far.
+[Ezkiel-udiomuno](https://github.com/Ezekiel-udiomuno) has been of tremendous help so far.
 Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to appreciate [Microverse](https://www.microverse.org/) for providing the resources and the platform for us to be a Professional full-stack developer.
+- I would also appreciate Nelson Sakwa on behance for the access to his [project](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)), giving the inspiration to do this project
+- I would like to appreciate [Microverse](https://www.microverse.org/) for providing the resources and the platform for us to be a Professional full-stack developer.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
