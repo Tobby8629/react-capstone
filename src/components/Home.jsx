@@ -24,7 +24,13 @@ function Home() {
         {data.filter((info) => info.date.includes(date)).map((data) => (
           <div className="each" key={data.id}>
             <div className="detail">
-              <h3>Year: <span> {data.date}</span></h3>
+              <h3>
+                Year:
+                <span>
+                  {' '}
+                  {data.date}
+                </span>
+              </h3>
               <p>
                 <span className="total">Total revenue: </span>
                 {data.total}
