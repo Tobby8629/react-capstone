@@ -5,7 +5,7 @@ import { useDispatch } from 'react-redux';
 import Home from './components/Home';
 import Card from './components/Card';
 import Nav from './components/Nav';
-import { fetchData } from './components/Redux/data/dataSlice';
+import { fetchData } from './Redux/data/dataSlice';
 
 function App() {
   const dispatch = useDispatch();
