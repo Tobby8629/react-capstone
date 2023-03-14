@@ -79,6 +79,45 @@ nav h2 {
   border: none;
 }
 
+/*** Each *****/
+
+.each:nth-child(even) {
+background-color: rgba(140, 19, 39, 0.895);
+}
+
+.each h3 {
+  margin-bottom: 10px;
+}
+
+.each a {
+  color: white;
+  text-decoration: none;
+}
+
+.total {
+  font-weight: 600;
+}
+
+/*** card ****/
+
 .Hcard {
    background-image: linear-gradient(rgba(90, 6, 20, 0.381), rgba(90, 6, 20, 0.579)), url(./components/Assets/header2.jpg);
+}
+
+.subhead {
+  color: white;
+  background-color: rgba(140, 19, 39, 0.895);
+  padding: 5px 10px;
+}
+
+.card li {
+ color: white;
+ padding: 1rem ;
+ list-style: none;
+ cursor: pointer;
+ font-size: 20px;
+}
+
+.card li:nth-child(even) {
+  background-color: rgba(140, 19, 39, 0.895);
 }
