@@ -1,70 +1,206 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<div align="center">
+  <img src="https://media.giphy.com/media/bmQBu3aSF0DxadphkG/giphy.gif" alt="logo" width="500"  height="auto" />
+  <br/>
 
-In the project directory, you can run:
+  <h3><b>README</b></h3>
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 📗 Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 📖 REACT METRICWEBAPP  <a name="about-project"></a>
 
-### `npm run build`
+**REACT METRICWEBAPP** is a webApp that contains Apple product annual revenue, displaying them in segment of year, and into a smaller segment of each country revenue. Here is a [link](https://www.loom.com/share/16a20c8d07414289a6e4e871de6f7242) to a video about the project.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠 Built With <a name="built-with"></a>
+- REACT
+- CSS
+- REDUX
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Tech Stack <a name="tech-stack"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ <details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https:/reactjs.com/">REACTJS</a></li>
+  </ul>
+</details> 
+<details>
+  <summary>style</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">CSS</a></li>
+  </ul>
+</details>
 
-### `npm run eject`
+<details>
+<summary>state management</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">REDUXJS</a></li>
+  </ul>
+</details>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Key Features <a name="key-features"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **receive data from an API using await fetch**
+- **manage state using redux**
+- **create a Home page to display the yearly data**
+- **Create a page for each data using useparams.**
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## 🚀 Live Demo <a name="live-demo"></a>
+- [Live Demo Link](https://metric-app-4bso.onrender.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## 💻 Getting Started <a name="getting-started"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [git](https://git-scm.com/downloads): A tool for managing source code
+- [Visual Studio Code](https://code.visualstudio.com/): A source code editor
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Setup
+
+Clone this repository to your desired folder:
+https://github.com/AbdimulhinYussuf3675/Module2_capstune_Project.git
+
+
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/Module2_capstune_Project.git
+```
+
+### Install
+
+- Run npm install after cloning the repo
+
+install npx
+
+Example command:
+
+```sh
+  cd my-project
+  npx install
+```
+
+### Usage
+
+- Run npm start for development. 
+- Run npm run build for production
+
+
+### Run tests
+
+To run tests, run the following command:
+- Run npx eslint . for JS check
+- Run npx eslint . --fix to fix JS errors if found
+- Run npx stylelint "**/*.{css,scss}" for CSS check
+- Run npx stylelint "**/*.{css,scss}" --fix to fix CSS errors if found.
+
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can deploy this project using:
+- Github pages
 
-### `npm run build` fails to minify
+Github pages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p>follow <a href="https://www.w3schools.com/git/git_remote_pages.asp?remote=github">these steps</a> for example</p>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+##👥 Authors <a name="authors"></a>
+
+👤**Samuel Tobby**
+
+- GitHub: [@Tobby8629](https://github.com/Tobby8629)
+- Twitter: [@Tobby_samuels](https://twitter.com/Tobby_samuels)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/samuel-popoola-tobby/)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🔭 Future Features <a name="future-features"></a>
+- I will add data of states revenue in each country
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## ⭐️ Show your support <a name="support"></a>
+
+[Ezkiel-udiomuno](https://github.com/Ezekiel-udiomuno) has been of tremendous help so far.
+Give a ⭐️ if you like this project!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+- I would also appreciate Nelson Sakwa on behance for the access to his [project](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)), giving the inspiration to do this project
+- I would like to appreciate [Microverse](https://www.microverse.org/) for providing the resources and the platform for us to be a Professional full-stack developer.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **[Are you sure that you are owner of this work]**
+
+  - [Yes,]
+
+- **[Can you make the work to be responsive]**
+
+  - [yes]
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

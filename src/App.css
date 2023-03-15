@@ -1,38 +1,225 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: rgb(243, 59, 89);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(251, 246, 246, 0.906);
+  padding: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.back {
+  display: flex;
+  align-items: center;
+}
+
+nav h2 {
+  font-weight: 200;
+}
+
+.icons i {
+  font-size: 20px;
+  margin-left: 13px;
+}
+
+.back a i {
+  margin-right: 10px;
+  color: rgba(251, 246, 246, 0.906);
+}
+
+/*** Homepage **/
+
+.header {
+  height: 30vh;
+  background-image: linear-gradient(rgba(90, 6, 20, 0.381), rgba(90, 6, 20, 0.579)), url(./components/Assets/header.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header h2 {
+  width: 218px;
+  color: rgba(255, 255, 255, 0.818);
+}
+
+.home {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-auto-rows: 150px;
+}
+
+.each {
+  color: white;
+  padding: 0.5rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin: 0;
+  position: relative;
+}
+
+/*** header input ***/
+.form {
+  margin: 0;
+  padding: 0;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  outline: none;
+  border: none;
+}
+
+/*** Each *****/
+
+.detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.each:nth-child(even) {
+  background-color: rgba(140, 19, 39, 0.895);
+}
+
+.each:nth-child(4n-1) {
+  background-color: rgba(90, 6, 20, 0.579);
+}
+
+.each:nth-child(4n) {
+  background-color: transparent;
+}
+
+.each h3 {
+  margin-bottom: 5px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.each a {
   color: white;
+  text-decoration: none;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid white;
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.total {
+  font-weight: 400;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/*** card ****/
+
+.Hcard {
+  background-image: linear-gradient(rgba(90, 6, 20, 0.381), rgba(90, 6, 20, 0.579)), url(./components/Assets/header2.jpg);
+}
+
+.subhead {
+  color: white;
+  background-color: rgba(140, 19, 39, 0.895);
+  padding: 5px 10px;
+}
+
+.card li {
+  color: white;
+  padding: 1rem;
+  list-style: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.card li:nth-child(even) {
+  background-color: rgba(140, 19, 39, 0.895);
+}
+
+@media (min-width: 768px) {
+  .header {
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
   }
-  to {
-    transform: rotate(360deg);
+
+  .header h2 {
+    font-size: 2em;
+    width: 290px;
+  }
+
+  .form input {
+    padding: 1rem 10px;
+  }
+
+  .home {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-auto-rows: 220px;
+  }
+
+  .detail {
+    font-size: 18px;
+  }
+
+  .detail h3 {
+    margin-bottom: 1rem;
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .each a {
+    top: 15px;
+    right: 15px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+  }
+
+  .each:nth-child(4n-1) {
+    background-color: rgba(90, 6, 20, 0.579);
+  }
+
+  .each:nth-child(4n) {
+    background-color: transparent;
+  }
+
+  .each p {
+    font-size: 20px;
+  }
+
+  .total {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  /*** cards ****/
+  .subhead {
+    font-size: 20px;
+    padding: 10px 10px;
+    font-weight: 200;
+  }
+
+  .card ul li {
+    font-size: 24px;
+    padding: 1.3rem 1rem;
   }
 }
