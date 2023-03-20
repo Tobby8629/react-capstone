@@ -2,19 +2,24 @@
 
 exports[`Home match snapshot 1`] = `
 Array [
-  " ",
+  <div
+    className="header"
+  >
+    <h2>
+      Global Apple product Revenue
+    </h2>
+  </div>,
+  <div
+    className="form"
+  >
+    <input
+      onChange={[Function]}
+      placeholder="filter by year example 2022-09-03"
+      type="text"
+    />
+  </div>,
   <div
     className="home"
-  >
-    <div
-      className="form"
-    >
-      <input
-        onChange={[Function]}
-        placeholder="filter by year"
-        type="text"
-      />
-    </div>
-  </div>,
+  />,
 ]
 `;
